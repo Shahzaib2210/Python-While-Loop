@@ -19,4 +19,4 @@ while True:
         # Appending numbers in array.
         numbers_array.append(float(user_input))
 # Printing sum of number divided by len of total numbers.
-print(sum(numbers_array)/len(numbers_array))
+print(f"Result: {sum(numbers_array)/len(numbers_array)}")
